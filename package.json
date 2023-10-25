@@ -29,5 +29,8 @@
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "prettier": "^3.0.3"
   },
-  "prettier": "./src/index.js"
+  "prettier": "./src/index.js",
+  "engines": {
+    "node": ">= 18"
+  }
 }

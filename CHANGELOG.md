@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Changed
 
 - Use spaces for indention
+- Require Node.js 18
 - Updated prettier
 
 ## [1.0.0] - 2022-08-09
