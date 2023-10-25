@@ -18,8 +18,8 @@ Create a file named `.prettierrc.js` with following contents in the root folder 
 
 ```js
 module.exports = {
-  ...require("@electerious/prettier-config"),
-};
+  ...require('@electerious/prettier-config'),
+}
 ```
 
 That's it! You can override the settings by editing the `.prettierrc.js` file.

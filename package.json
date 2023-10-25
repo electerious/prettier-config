@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "test": "npm run format -- --check",
-    "format": "prettier --write 'src/**/*.js'"
+    "format": "prettier --ignore-path .gitignore --write '**/*.{js,json,md,yml}'"
   },
   "license": "MIT",
   "homepage": "https://github.com/electerious/prettier-config",
@@ -26,7 +26,8 @@
     "src"
   ],
   "dependencies": {
-    "prettier": "^2.7.1"
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "prettier": "^3.0.3"
   },
   "prettier": "./src/index.js"
 }
