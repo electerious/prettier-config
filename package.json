@@ -13,8 +13,9 @@
     "formatter"
   ],
   "scripts": {
-    "test": "npm run format -- --check",
-    "format": "prettier --ignore-path .gitignore --write '**/*.{js,json,md,yml}'"
+    "prettier": "prettier --ignore-path .gitignore '**/*.{js,json,md,yml}'",
+    "test": "npm run prettier -- --check",
+    "format": "npm run prettier -- --write"
   },
   "license": "MIT",
   "homepage": "https://github.com/electerious/prettier-config",
