@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "prettier": "prettier --ignore-path .gitignore '**/*.{js,json,md,yml}'",
-    "test": "npm run prettier -- --check",
+    "test": "npm run lint",
+    "lint": "npm run prettier -- --check",
     "format": "npm run prettier -- --write"
   },
   "license": "MIT",
