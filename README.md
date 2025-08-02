@@ -14,12 +14,4 @@ npm install --save-dev @electerious/prettier-config
 
 ## Usage
 
-Create a file named `.prettierrc.js` with following contents in the root folder of your project:
-
-```js
-module.exports = {
-  ...require('@electerious/prettier-config'),
-}
-```
-
-That's it! You can override the settings by editing the `.prettierrc.js` file.
+[Use the shared configuration](https://prettier.io/docs/sharing-configurations#using-a-shareable-config) in your project.
