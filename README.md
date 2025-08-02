@@ -9,7 +9,7 @@ Shareable Prettier configuration for my personal projects.
 Install this package. It already includes Prettier and the necessary plugins.
 
 ```bash
-npm install --save-dev @electerious/prettier-config
+npm install --save-dev prettier @electerious/prettier-config
 ```
 
 ## Usage
