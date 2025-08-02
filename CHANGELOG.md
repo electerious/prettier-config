@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Changed
 
 - plugin to sort imports
+- Require Node.js 20
 
 ## [2.0.1] - 2024-12-24
 
