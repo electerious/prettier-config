@@ -1,39 +1,46 @@
 {
   "name": "@electerious/prettier-config",
   "version": "2.0.1",
-  "authors": [
-    "Tobias Reich <tobias@electerious.com>"
-  ],
   "description": "Prettier configuration for my personal projects",
-  "main": "src/index.js",
-  "type": "module",
   "keywords": [
     "prettier",
     "config",
     "format",
     "formatter"
   ],
-  "scripts": {
-    "prettier": "prettier --ignore-path .gitignore '**/*.{js,json,md,yml}'",
-    "test": "npm run lint",
-    "lint": "npm run prettier -- --check",
-    "format": "npm run prettier -- --write"
-  },
-  "license": "MIT",
   "homepage": "https://github.com/electerious/prettier-config",
   "repository": {
     "type": "git",
     "url": "https://github.com/electerious/prettier-config.git"
   },
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
   "files": [
     "src"
   ],
-  "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
-    "prettier": "^3.0.3"
+  "scripts": {
+    "format": "npm run prettier -- --write",
+    "lint": "npm run prettier -- --check",
+    "prettier": "prettier --ignore-path .gitignore '**/*.{js,json,md,yml}'",
+    "test": "npm run lint"
   },
   "prettier": "./src/index.js",
+  "dependencies": {
+    "prettier-plugin-css-order": "^2.1.2",
+    "prettier-plugin-organize-imports": "^4.2.0",
+    "prettier-plugin-packagejson": "^2.5.19"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
   "engines": {
     "node": ">= 18"
-  }
+  },
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ]
 }
