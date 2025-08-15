@@ -6,7 +6,7 @@ Shareable Prettier configuration for my personal projects.
 
 ## Install
 
-Install this package. It already includes Prettier and the necessary plugins.
+Install this package and `prettier`. Necessary plugins are already included.
 
 ```bash
 npm install --save-dev prettier @electerious/prettier-config
