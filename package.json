@@ -1,6 +1,6 @@
 {
   "name": "@electerious/prettier-config",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Prettier configuration for my personal projects",
   "keywords": [
     "prettier",
