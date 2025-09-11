@@ -1,6 +1,6 @@
 # Prettier configuration
 
-![Build](https://github.com/electerious/prettier-config/workflows/Build/badge.svg)
+[![Test](https://github.com/electerious/prettier-config/actions/workflows/test.yml/badge.svg)](https://github.com/electerious/prettier-config/actions/workflows/test.yml)
 
 Shareable Prettier configuration for my personal projects.
 
