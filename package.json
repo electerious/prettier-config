@@ -28,14 +28,14 @@
   },
   "prettier": "./src/index.js",
   "dependencies": {
-    "prettier-plugin-css-order": "^2.1.2",
-    "prettier-plugin-organize-imports": "^4.2.0",
-    "prettier-plugin-packagejson": "^2.5.19"
+    "prettier-plugin-css-order": "^2.2.0",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-packagejson": "^2.5.22"
   },
   "devDependencies": {
-    "@electerious/eslint-config": "^5.0.0",
-    "eslint": "^9.33.0",
-    "prettier": "^3.6.2"
+    "@electerious/eslint-config": "^5.2.1",
+    "eslint": "^9.39.2",
+    "prettier": "^3.8.1"
   },
   "peerDependencies": {
     "prettier": "^3.6.2"
