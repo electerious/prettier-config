@@ -11,7 +11,7 @@
   "homepage": "https://github.com/electerious/prettier-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/electerious/prettier-config.git"
+    "url": "git+https://github.com/electerious/prettier-config.git"
   },
   "license": "MIT",
   "type": "module",
