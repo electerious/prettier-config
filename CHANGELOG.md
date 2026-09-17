@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Added
+
+- `prettier-plugin-jsdoc`
+
 ### Changed
 
 - Require Node.js >=24.15.0, dropping support for Node.js 22
